@@ -1,0 +1,79 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		//pegar/receber/colher do usuário o nome e manda uma mensagen de bom dia
+		// colocando sr ou sra conforme a opção
+		// ingredientes/variaveis
+		cadeia nomeUsuario
+		caracter opcao
+		inteiro anonascimento, idade
+		const inteiro anoatual = 2020
+		escreva("Digite o seu nome: ")
+		leia(nomeUsuario)
+		escreva("Digite M - masculino ou F - feminino : ")
+		leia(opcao)
+		escreva("Informe seu ano de nascimento : ")
+		leia(anonascimento)
+
+		idade = anoatual - anonascimento
+		
+		se (opcao == 'F' e idade < 25){
+			escreva("Oi Jovem ", nomeUsuario) 
+		}
+		senao se (opcao == 'f' e idade < 25) {
+			escreva("Oi Jovem ", nomeUsuario)
+		}
+		senao se (opcao == 'M' e idade < 25) {
+			escreva("Oi Jovem ", nomeUsuario)
+		}
+		
+		senao se (opcao == 'm' e idade < 25) {
+			escreva("Oi jovem ", nomeUsuario)
+		}
+
+
+		senao se (opcao == 'F' e idade > 25 e idade <=59 ) {
+			escreva("Oi Madura ", nomeUsuario)
+		}
+		senao se (opcao == 'f' e idade > 25 e idade <=59 ) {
+			escreva("Oi Madura ", nomeUsuario)
+		}
+		senao se (opcao == 'M' e idade > 25 e idade <=59 ) {
+			escreva("Oi Maduro ", nomeUsuario)
+		}
+		
+		senao se (opcao == 'm' e idade > 25 e idade <=59 ) {
+			escreva("Oi Maduro ", nomeUsuario)
+		}
+
+		senao se (opcao == 'F' e idade > 59 ) {
+			escreva("Oi Idosa ", nomeUsuario)
+		}
+		senao se (opcao == 'f' e idade > 59 ) {
+			escreva("Oi Idosa ", nomeUsuario)
+		}
+		senao se (opcao == 'M' e idade > 59) {
+			escreva("Oi Idoso ", nomeUsuario)
+		}
+		
+		senao se (opcao == 'm' e idade > 59 ) {
+			escreva("Oi Maduro ", nomeUsuario)
+		}
+		senao {
+			escreva("Oi Senhorx, ", nomeUsuario)
+		}
+	}
+}
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 370; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
