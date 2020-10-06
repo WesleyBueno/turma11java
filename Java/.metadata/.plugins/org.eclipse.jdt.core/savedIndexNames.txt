@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\wesle\OneDrive\Área de Trabalho\Generation\Trabalhos\turma11java\Java\.metadata\.plugins\org.eclipse.jdt.core
+3927496509.index
+2196199803.index
+131792988.index
+2525604767.index

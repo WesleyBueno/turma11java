@@ -6,7 +6,7 @@ programa
 	funcao inicio()
 	{
 		const inteiro tamanho = 3
-		inteiro mat[tamanho][3],l,c
+		inteiro mat[3][3],l,c
 
 		inteiro somaTotal = 0
 		inteiro somaDiagonal = 0
@@ -43,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 499; 
+ * @POSICAO-CURSOR = 344; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

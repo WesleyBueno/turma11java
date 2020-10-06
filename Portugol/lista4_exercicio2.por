@@ -19,7 +19,7 @@ programa
 		escreva("Jogando dados")
 		pula()
 		para (inteiro x = 0 ; x < LIMITE; x++) {
-			valoresDado[x] = Util.sorteia(1, 6)
+			valoresDado[x] = Util.sorteia(1, 6) 
 
 			soma = soma + valoresDado[x]
 
@@ -61,7 +61,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 521; 
+ * @POSICAO-CURSOR = 928; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
