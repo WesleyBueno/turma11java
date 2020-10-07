@@ -1,0 +1,24 @@
+package java;
+
+import java.util.Scanner;
+
+public class lista1_exercicio1 {
+
+	public static void main(String[] args) {
+		//1- Faça um programa que receba três inteiros e diga qual deles é o maior.
+		
+		Scanner minion = new Scanner(System.in);
+		
+		int vetor [];
+		vetor = new int[3];
+		String maiorNumero;
+		
+		System.out.print("Informe o valor de A,B e C: ");
+		vetor[3] = minion.nextInt();
+		
+		
+		
+		
+	}
+
+}
