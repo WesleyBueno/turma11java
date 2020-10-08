@@ -1,0 +1,26 @@
+package Jv;
+
+import java.util.Scanner;
+
+public class tabuada2 {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+		int num = 0;
+		int tabu = 0;
+		int res = 0;
+		
+		System.out.println("Digite um número: ");
+		num = leia.nextInt();
+		
+		for(num = 0; num <10; num++) {
+			res = num*tabu;
+			tabu+=1;
+			System.out.println(num+ "X" +tabu+ " = " +res);
+		}
+	}
+
+	
+
+}

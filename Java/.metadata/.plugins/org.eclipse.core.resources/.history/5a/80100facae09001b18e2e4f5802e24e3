@@ -1,0 +1,23 @@
+package Jv;
+
+import java.util.Scanner;
+
+public class lista2_exercicio2 {
+
+	public static void main(String[] args) {
+		/*Ler 10 números e imprimir quantos são pares e quantos são ímpares. (FOR)*/
+		
+		
+		 Scanner leia =  new Scanner (System.in);
+		 
+		 final int LIMITE =10;
+		 int numeros =0;
+		 
+		 for(int i>=0;i<=LIMITE;i++) {
+			 
+			 
+			 
+		 }
+	}
+
+}

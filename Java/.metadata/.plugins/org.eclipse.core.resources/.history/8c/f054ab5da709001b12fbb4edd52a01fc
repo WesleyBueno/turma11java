@@ -1,0 +1,43 @@
+package Jv;
+
+import java.util.Scanner;
+
+public class lista2_exercicio4 {
+	
+	public static void main(String[] args) {
+	
+	Scanner leia = new Scanner(System.in);
+	
+	int idade;
+	final int LIMITE =2;
+	byte sexo;
+	byte tipoHumor;
+	int totalF,totalM, pessoasCalmas =0, mulheresNervosas=0, homensAgressivos=0, outrosCalmos=0, nervosas40=0,calmasMenor17=0;
+	char continua ='S';
+	int contador =1;
+	
+	while(continua <=2) {
+		System.out.println("Digite sua idade:");
+		idade =leia.nextInt();
+		
+		System.out.println("Digite 1-Feminino 2-masculino 3-outros");
+		sexo =leia.nextByte();
+		
+		System.out.println("Digite 1-Calma 2-Nervosa 3-Agressiva");
+		tipoHumor=leia.nextByte();
+		
+		if(tipoHumor ==1) {
+			
+			pessoasCalmas = pessoasCalmas +1;
+			contador++;
+		}
+		
+	}
+	
+	System.out.printf("\nTotal de pessoas calmas: %d",pessoasCalmas);
+	
+	leia.close();
+	
+	}
+
+}
