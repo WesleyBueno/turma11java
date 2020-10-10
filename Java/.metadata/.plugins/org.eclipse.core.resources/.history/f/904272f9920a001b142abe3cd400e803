@@ -1,0 +1,67 @@
+package Jv;
+
+import java.util.Scanner;
+
+public class lista3_exercicio2 {
+	
+	public static void main(String[] args) {
+		
+	/*2- Faça um programa que receba 6 números inteiros e mostre: 
+• Os números pares digitados;  
+• A soma dos números pares digitados; 
+• Os números ímpares digitados; 
+• A quantidade de números ímpares digitados.
+*/
+		
+	
+	
+	Scanner leia = new Scanner(System.in);
+	
+	final int LIMITE =6;
+	int numeros[] = new int [LIMITE] ;
+	int i;
+	int par =0,impar= 0;
+	int numeroPar[] = new int[LIMITE]; 
+	int numeroImpar[] = new int[LIMITE];
+	int somaPares =0;
+	
+	for(i =0;i<LIMITE;i++) {
+		System.out.printf("informe os valores dos números: ");
+		numeros[i] = leia.nextInt();
+	
+		
+	}
+	for(i =0;i<LIMITE;i++) {
+		
+		if(numeros[i]%2 ==0) {
+			somaPares = somaPares +numeros[i];
+			numeroPar[i] = numeros[i];
+			
+			
+			if (numeroPar[i] > 0) {
+				System.out.println("Numero par digitado: "+numeroPar[i]);
+			}
+			par = par +1;
+			
+			}if(numeros[i]%2!=0) {
+				
+				
+				
+				numeroImpar[i] =numeros[i];
+				
+				if (numeroImpar[i] > 0) {
+					System.out.println("Numero par digitado: "+numeroImpar[i]);
+					
+					
+				}
+				impar = impar +1;
+			}
+		
+	}
+	
+	
+	/*System.out.printf("\nA soma dos números pares digitados é: %d",somaPares);
+	System.out.printf("\nOs números ímpares digitados foram: %d",numeroImpar);
+	System.out.printf("\nA quantidade de números ímpares foi de: %d",impar);*/
+	}
+}
